@@ -1,0 +1,207 @@
+*
+{margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: burlywood;
+    background-size: cover;
+}
+
+.headder .head{
+    margin-top: 5px;
+    background-color: black;
+    text-shadow: 2px 2px 5px red;
+    height: 215px;
+    position: relative;
+    width: 100%;
+
+}
+
+.headder .head img{
+    padding: 5px 0px 0px 133px;
+    position: absolute;
+}
+
+.headder .head h1{
+    position: relative;
+    text-align: center;
+    color: #ffd700;
+    padding: 30px 0px 25px 10px;
+    /* font-family: Trattatello, fantasy; */
+    letter-spacing: 6px;
+}
+
+.headder .head h3{
+    position: relative;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 15px;
+    color: #ffd700;
+    letter-spacing: 3px;
+
+}
+.headder .head p{
+    position: relative;
+    text-align: center;
+    color: #ffd700;
+    padding-left: 53px;
+    letter-spacing: 1px;
+    
+}
+
+.blankplace{
+    position: relative;
+}
+
+
+/* .menu{
+    position: relative;
+    padding: 180px 0px 5px 0px;
+    /* background-color: #4e4d44; 
+}
+
+.menu .a a{
+    position: absolute;
+    padding: 8px 0px 0px 220px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+}
+
+
+.menu .a1 a{
+    position: absolute;
+    padding: 8px 0px 0px 400px;
+    text-decoration: none ;
+    color: black;
+    font-size: 25px;
+}
+
+.menu .a2 a{
+    position: absolute;
+    padding: 8px 0px 0px 600px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.menu .a3 a{
+    position: absolute;
+    padding: 8px 0px 0px 850px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.menu .a4 a{
+    position: absolute;
+    padding: 8px 0px 0px 1100px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+} */
+
+.menu{
+    text-align: center;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(219, 221, 72);
+    max-height: 120px;
+}
+
+.menu .a1 li{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.menu .a1 ul li{
+    width: 120px;
+    margin: 0px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.menu .a1 ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(129, 82, 170);
+    border-radius: 5px;
+    padding: 25px 15px 30px 15px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+.donate, .menu ul li:hover{
+    background-color: rgb(129, 82, 170);
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intro .intropara img{
+    position: absolute;
+    padding: 50px 0px 0px 25px;
+
+}
+
+.intro{
+    position: relative;
+
+}
+.intro .intropara2 img{
+    position: relative;
+    padding: 630px 0px 15px 25px;
+    border: 15px;
+    border: 20px;
+}
+
+.intro .intropara h3{
+    text-align: center;
+    padding: 60px 0px 0px 550px;
+    position: absolute;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: Apple Chancery, cursive;
+    color: red;
+
+}
+
+.intro .intropara2 h3{
+    text-align: center;
+    padding: 635px 0px 0px 550px;
+    position: absolute;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: Apple Chancery, cursive;
+    margin-bottom: 50px;
+    color: brown;
+
+}
